@@ -71,7 +71,7 @@ is your friend. Also organize your scenes by naming them or using empties as fol
 
 Unity is a panel based application. These panels can be rearranged however you like and saved as default. 
 
-![layout](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/layout.png)
+![layout](images/layout.png)
 
 This is my default setup. The **Scene** panel is the most important viewport. This is where you modify the scene. The **Game** scene only turns on if you hit play. It is a preview of what the user will see if you build the current scene.
 
@@ -192,7 +192,7 @@ So you are finished your game. You need to disturbed the game. This is done thro
 
 2. Select the scenes that you want to build
 
-   ![build](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/build.png)
+   ![build](images/build.png)
 
 3. Select the desired **Platform**
 
@@ -218,7 +218,7 @@ From my [GitHub](https://github.com/Zeyu-Li?tab=repositories):
 
 2. Download ZIP after clicking Clone or download
 
-   ![download](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/download.png)
+   ![download](images/download.png)
 
 3. Unzip and move to desired directory
 
@@ -242,7 +242,7 @@ Collaborating will friends can be tough will Unity, especially with git/GitHub, 
 
 If you need to collaborate, the best way is to use Unity's Collab feature
 
-![collab](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/collab.png)
+![collab](images/collab.png)
 
 However, note that this only supports 4 people (which is usually enough because only people that will contribute to the codebase should need it)
 
@@ -270,7 +270,7 @@ Otherwise if you are a masochistic and decide to GitHub, here are some general p
 
 ### 10. Resources
 
-* The [Unity User Manual](https://docs.unity3d.com/Manual/index.html) provides some great documentation with code that can for the most part be copied and pasted
+* The [Unity User Manual](https://docs.unity3d.com/Manualindex.html) provides some great documentation with code that can for the most part be copied and pasted
 * Brackeys [YouTube channel](https://www.youtube.com/user/Brackeys)
 * [Lynda.com](https://www.lynda.com/) - If you have a library card, there is a high probability that you have access to Lynda with their organization deal
 * Google is your best friend
