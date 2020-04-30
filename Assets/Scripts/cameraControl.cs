@@ -6,7 +6,6 @@ public class cameraControl : MonoBehaviour
 {
     // sensitivety of mouse
     public float mouseSpeed = 100f;
-    public float smoothing = 2.0f;
 
     // place camera here
     public Transform player;
