@@ -56,6 +56,7 @@ public class movement : MonoBehaviour
 
             // Crossing the vector we made before with the initial normal gives us a vector that is parallel to the slope and always pointing down
             slopeParallel = Vector3.Cross(groundParallel, n);
+            // green pointer to down the slope
             Debug.DrawRay(hit.point, slopeParallel * 10, Color.green);
 
             // Just the current angle we're standing on
@@ -88,4 +89,10 @@ public class movement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
     }
+    private void OnTriggerEnter(Collider collision) {
+        if (collision.gameObject.CompareTag("key")) {
+            Destroy(collision.gameObject);
+        }
+    }
+
 }
