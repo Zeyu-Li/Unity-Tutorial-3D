@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class endScene : MonoBehaviour {
-    static public bool end = true;
+    static public bool end = false;
     private void OnTriggerEnter(Collider collision) {
         if (collision.gameObject.CompareTag("Player")) {
             Done();
@@ -13,6 +13,7 @@ public class endScene : MonoBehaviour {
 
     // Update is called once per frame
     void Done() {
+        end = !end;
         SceneManager.LoadScene("title");
     }
 }
