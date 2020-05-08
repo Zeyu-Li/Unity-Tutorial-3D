@@ -156,13 +156,13 @@ To import 3D models/bodies, you will have to import it as a fbx file (make sure 
 
 From there I have a model that can be dragged into the scene. Now you have the model with the materials and other properties included.
 
-![material](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/material.png)
+![material](images/material.png)
 
 Of course, you can move it, rotate it, or scale it, but I will assume you know what to do that. However, if you want Unity to automatically general colliders for the model (generally good enough), 
 
 1. click on the model and under **Meshes** select **Generate Colliders**
 
-![generate](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/generate.png)
+![generate](images/generate.png)
 
 \* Note for some things like platforms, **Generate Colliders** can be bad as the optimized mesh collides with the player, therefore switch to box colliders
 
@@ -180,7 +180,7 @@ In many 3D programs, you will get options to snap to another object or vertex. T
 
 1. Select **Shaded Wireframe** as the view
 
-   ![view](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/view.png)
+   ![view](images/view.png)
 
 2. Click on the **Move Tool** (the one with the arrows in 4 directions), hold down the **v key** and it will snap to a vertex 
 
@@ -471,11 +471,11 @@ Another way to the the animation is to do it in the 3D program of choice (for me
 
 2. Click on the fbx in Unity and change it to **Animation**
 
-   ![3animation](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/3animation.png)
+   ![3animation](images/3animation.png)
 
 3. If you have several animations, you have to separate the different animations apart by clicking the add icon (below) and adjusting the start and end frames
 
-   ![clips](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/clips.png)
+   ![clips](images/clips.png)
 
 4. Create an animations controller and rename it. Also double click it
 
@@ -770,11 +770,11 @@ I hope you enjoyed this tutorial and the finished version is here.
 
 Unfortunately, I cannot insert a demo here as it would be too long, but I can share some screenshots here:
 
-![title](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/title.png)
+![title](images/title.png)
 
-![screen2](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/screen2.png)
+![screen2](images/screen2.png)
 
-![screen1](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/screen1.png)
+![screen1](images/screen1.png)
 
 Feel free to play the game or use any of the resources for the game. I hope you've enjoyed this experience and I wish you luck in making your games. 
 
@@ -822,7 +822,7 @@ One of the last things to do is to create a title screen. I will be basing my ti
 
 6. With the button selected, click on the **+** icon in the On Click part (below)
 
-   ![buttonAction](C:/Users/zeyul/Documents/GitHub/unity-user-guide/images/buttonAction.png)
+   ![buttonAction](images/buttonAction.png)
 
 7. Drag the menu in the None (Object) box
 
