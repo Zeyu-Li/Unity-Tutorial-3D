@@ -33,7 +33,7 @@ This it a 3D Unity user guide that acts as a tutorial in making a 3D platformer.
     * [Pausing](#3_pausing)
     * [Quiting](#3_exit)
 16. [Demo](#3demo)
-17. [Title Screen](#title)
+17. [Title Screen](#3_title)
 18. [Scripting](#script)
 19. [Building](#build)
 20. [Cloning Guide](#guide)
@@ -41,8 +41,6 @@ This it a 3D Unity user guide that acts as a tutorial in making a 3D platformer.
     * [Unity's Collab](#unity) (recommended)
     * [GitHub](#git)
 22. [Resources](#help)
-
-
 
 <a name="install"></a>
 
@@ -750,7 +748,7 @@ Feel free to play the game or use any of the resources for the game. I hope you'
 
 
 
-<a name="title"></a>
+<a name="3_title"></a>
 
 ### 17 Title Screen
 
