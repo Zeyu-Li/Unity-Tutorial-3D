@@ -92,7 +92,7 @@ Other panels include a console, which will output when the game is run. The **An
 
 <a name="5a"></a>
 
-### 	4 General
+### 	4. General
 
 Good for you for deciding to go 3D. Before we go any further, it is not recommended that you start off with a 3D project if you are just starting out doing game design. Furthermore, it is recommended that you start with the previous 2D tutorial because some of the concepts and components will be similar or exact. 
 
@@ -106,7 +106,7 @@ When you start off, you will be brought up to a scene consisting of a directiona
 
 <a name="5b"></a>
 
-### 	5 3D Models & Bodies
+### 	5. 3D Models & Bodies
 
 <a name="m_res"></a>
 
@@ -193,7 +193,7 @@ Resource: https://youtu.be/NjflKgMepQs
 
 <a name="5c"></a>
 
-### 	6 Movement
+### 	6. Movement
 
 **Legacy Way:**
 
@@ -365,7 +365,7 @@ Resource: [Brackeys](https://www.youtube.com/watch?v=_QajrabyTJc)
 
 <a name="5d"></a>
 
-### 	7 Camera
+### 	7. Camera
 
 There are a few options for cameras. For a fixed camera following the player:
 
@@ -383,7 +383,7 @@ There are special camera options (such as a more flexible or switching to severa
 
 <a name="light"></a>
 
-### 	8 Lighting
+### 	8. Lighting
 
 Just like other 3D applications, Unity has an array of lighting options
 
@@ -410,7 +410,7 @@ Another important things about lighting is bake lighting. Baking is a way to sav
 
 <a name="5f"></a>
 
-### 	9 Prefab
+### 	9. Prefab
 
 A prefab is simply a clone that can be dragged to the scene
 
@@ -422,7 +422,7 @@ To make a prefab, just drag the desired prefab object from scene to the prefabs 
 
 <a name="5g"></a>
 
-### 	10 Particle Systems
+### 	10. Particle Systems
 
 3D particle systems are very similar to 2D particle systems, therefore so particle options, go to the 2D [particle section](https://github.com/Zeyu-Li/unity-user-guide#4f-particle-system) for help with the options
 
@@ -439,7 +439,7 @@ For this tutorial, I will just be adding a smoke particle effect from a pipe
 
 <a name="3anim"></a>
 
-### 	11 Animation
+### 	11. Animation
 
 Unity animations are very similar to other 3D animating software. This means there is a timeline with keyframes. For this tutorial, I will be doing a spinning and blobbing key. 
 
@@ -472,7 +472,7 @@ Another way to the the animation is to do it in the 3D program of choice (for me
 
 <a name="3coll"></a>
 
-### 	12 Collectables
+### 	12. Collectables
 
 1. The collectable should have the desired tag before starting
 2. Within the player controller (movement.cs) check for collision with the tag. If overlap, destroy the object
@@ -520,7 +520,7 @@ Now if the key is collected, the key will show up on screen
 
 <a name="3events"></a>
 
-### 	13 Events
+### 	13. Events
 
 For this tutorial, I will make an event that activates once the key is collected. After which, a door opens. 
 
@@ -595,7 +595,7 @@ Now the final set is to send the player into the end screen after colliding with
 
 <a name="3music"></a>
 
-### 14 Music & Sounds
+### 14. Music & Sounds
 
 Music and sounds are important in the gameplay as it immerses the player into the game. This section will be split into two parts, music and sounds. 
 
@@ -661,7 +661,7 @@ Ambient sounds can be a great way to add that something extra to the game. This 
 
 <a name="3odds"></a>
 
-### 15 Odds and Ends
+### 15. Odds and Ends
 
 <a name="3_pausing"></a>
 
@@ -730,7 +730,7 @@ in the update method
 
 <a name="3demo"></a>
 
-### 16 Demo
+### 16. Demo
 
 I hope you enjoyed this tutorial and the finished version is here.
 
@@ -750,7 +750,7 @@ Feel free to play the game or use any of the resources for the game. I hope you'
 
 <a name="3_title"></a>
 
-### 17 Title Screen
+### 17. Title Screen
 
 One of the last things to do is to create a title screen. I will be basing my title screen on the 3D game.
 
@@ -788,7 +788,7 @@ One of the last things to do is to create a title screen. I will be basing my ti
 
 <a name="script"></a>
 
-### 18 Scripting
+### 18. Scripting
 
 Unity is based on C# and is very much a c-styled programming language. That means it resembles programs that are written in C, C++, or Java. 
 
@@ -837,7 +837,7 @@ When using this, after running the game, it will output to Unity's debug console
 
 <a name="build"></a>
 
-### 19 Build
+### 19. Build
 
 So you are finished your game. You need to disturbed the game. This is done through building the game. 
 
@@ -858,7 +858,7 @@ So you are finished your game. You need to disturbed the game. This is done thro
 
 <a name="guide"></a>
 
-### 20 Cloning Guide
+### 20. Cloning Guide
 
 To download the finished project:
 
@@ -879,7 +879,7 @@ To download the finished project:
 
 <a name="team"></a>
 
-### 21 Collaboration
+### 21. Collaboration
 
 <a name="unity"></a>
 
@@ -915,7 +915,7 @@ Otherwise if you decide to GitHub, here are some general practices:
 
 <a name="Help"></a>
 
-### 22 Resources
+### 22. Resources
 
 * The [Unity User Manual](https://docs.unity3d.com/Manualindex.html) provides some great documentation with code that can for the most part be copied and pasted
 * Brackeys [YouTube channel](https://www.youtube.com/user/Brackeys)
