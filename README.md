@@ -185,7 +185,7 @@ In many 3D programs, you will get options to snap to another object or vertex. T
 2. Click on the **Move Tool** (the one with the arrows in 4 directions), hold down the **v key** and it will snap to a vertex 
 3. With the v-key still help, drag and it will snap to another vertex 
 
-\* note if you want to organize the 'layers', use **Quads** as they are 3D equivalents of empties
+\* Note if you want to organize the 'layers', use **Quads** as they are 3D equivalents of empties
 
 Resource: https://youtu.be/NjflKgMepQs
 
@@ -742,7 +742,7 @@ Unfortunately, I cannot insert a demo here as it would be too long, but I can sh
 
 ![screen1](images/screen1.png)
 
-Feel free to play the game or use any of the resources for the game. I hope you've enjoyed this experience and I wish you luck in making your games. 
+Feel free to play the game or use any of the resources for the game. I hope you've enjoyed this experience and I wish you luck in making your game!
 
 [🔝 Back to Top](#top)
 
@@ -849,8 +849,6 @@ So you are finished your game. You need to disturbed the game. This is done thro
 4. You can customize the company name, product name, icon, and cursor
 5. **Build** (**And Run** if you want to run it)
 6. Select the folder and wait for it to build
-
-
 
 \* Note if you did not add an exit game button, the only way to exit is to close the program externally or Alt-f4
 
