@@ -734,7 +734,7 @@ in the update method
 
 I hope you enjoyed this tutorial and the finished version is here.
 
-Unfortunately, I cannot insert a demo here as it would be too long, but I can share some screenshots here:
+Unfortunately, I cannot insert a demo here as it would be too long (if you want to download the game see instructions below), but I can share some screenshots here:
 
 ![title](images/title.png)
 
@@ -743,6 +743,13 @@ Unfortunately, I cannot insert a demo here as it would be too long, but I can sh
 ![screen1](images/screen1.png)
 
 Feel free to play the game or use any of the resources for the game. I hope you've enjoyed this experience and I wish you luck in making your game!
+
+If you want to play it yourself (On windows, sorry Unix users 😜 need to build from source yourself):
+
+1. Go to the the releases on the GitHub or https://github.com/Zeyu-Li/Unity-Tutorial-3D/releases/tag/1.0 
+2. Download the 3D_template_game.zip
+3. Unzip
+4. Run the executable!
 
 [🔝 Back to Top](#top)
 
@@ -860,7 +867,7 @@ So you are finished your game. You need to disturbed the game. This is done thro
 
 To download the finished project:
 
-  1. Go to https://github.com/Zeyu-Li/Unity-Tutorial-2D
+  1. Go to https://github.com/Zeyu-Li/Unity-Tutorial-3D
   2. Download ZIP after clicking Clone or download
 
      ![download](images/download.png)
@@ -869,7 +876,7 @@ To download the finished project:
   5. The project should appear in Projects and it is done
   6. Click on the project to open it
 
-  \* Note if you want the project at different steps click on commits or https://github.com/Zeyu-Li/Unity-Tutorial-3D/commits/master and between April 13, 2020 `added imaged` commit to May 6, 2020 `finished game` is when various steps where completed. To download the project file at these times, click on the bracket thing (see below) and repeat above from step 2
+\* Note if you want the project at different steps click on commits or https://github.com/Zeyu-Li/Unity-Tutorial-3D/commits/master and between April 13, 2020 `added imaged` commit to May 6, 2020 `finished game` is when various steps where completed. To download the project file at these times, click on the bracket thing (see below) and repeat above from step 2
 
 ![history](images/history.jpg)
 
