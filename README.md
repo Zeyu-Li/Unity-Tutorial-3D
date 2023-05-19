@@ -2,7 +2,7 @@
 
 ## About
 
-This it a 3D Unity user guide that acts as a tutorial in making a 3D platformer. I will go through 3D games design along with general tips and tricks for solo and team-based projects. Without further ado, let's begin! 
+This is a 3D Unity user guide that acts as a tutorial in making a 3D platformer. I will go through 3D games design along with general tips and tricks for solo and team-based projects. Without further ado, let's begin! 
 
 <a name="top"></a>
 
@@ -48,7 +48,7 @@ This it a 3D Unity user guide that acts as a tutorial in making a 3D platformer.
 
 Before installing, note that Unity is **completely free**, if you or your company makes less than $100 000 (USD). 
 
-Follow the link [here](https://store.unity.com/download) and download the free installer (the plus version is definitely not necessary). Follow the instructions and download the installer. The Unity installer is simple and easy to use nevertheless, this [video](https://www.youtube.com/watch?v=KMuMhA6Lk0I) for Windows is a tutorial in installing it. Also note that you will may need a Unity account or just use your Google/Facebook account to sign in. 
+Follow the link [here](https://store.unity.com/download) and download the free installer (the plus version is definitely not necessary). Follow the instructions and download the installer. The Unity installer is simple and easy to use nevertheless, this [video](https://www.youtube.com/watch?v=KMuMhA6Lk0I) for Windows is a tutorial in installing it. Also note that you may need a Unity account or just use your Google/Facebook account to sign in. 
 
 If you want a new version of Unity, go to the Unity Hub and click the **Installs** tab on the left and **ADD** (top right) the desired version (it is recommended that you pick a version with **long term support** or LTS); however do be warned that this tutorial was made in **2019.3** so in newer versions, things might have moved places or removed entirely 😞. Afterwards, the installation will take quite a while, even with a fast internet connection. 
 
@@ -60,7 +60,7 @@ When installing Unity, it might ask you to install **Visual Studio** along-side 
 
 ### 2. General
 
-**Unity** is a 3D game engine built in **C#** but can be used for 2D. Before you freak out about programming, let me assure, you it is quite trivial. If you have programmed before especially in C++, it is a huge plus. If you have not, don't worry, it's just a bunch of copy and pasting. The most important thing is don't be frustrated and 
+**Unity** is a 3D game engine built in **C#** but can be used for 2D. Before you freak out about programming, let me assure you, it is quite trivial. If you have programmed before, especially in C++, it is a huge plus. If you have not, don't worry, it's just a bunch of copy and pasting. The most important thing is don't be frustrated and 
 
 ```c#
 Debug.Log() // logs to Unity console
@@ -68,7 +68,7 @@ Debug.Log() // logs to Unity console
 
 is your friend. 
 
-Being organized in Unity is a must, especially for big projects. Have organized folder will help a ton, in addition, using empties as folders within scene is *+1 organization*. 
+Being organized in Unity is a must, especially for big projects. Have an organized folder will help a ton, in addition, using empties as folders within the scene is *+1 organization*. 
 
 
 
@@ -82,7 +82,7 @@ Unity is a panel based application. These panels can be rearranged however you l
 
 This is my default setup. The **Scene** panel is the most important viewport. This is where you modify the scene. The **Game** scene only turns on if you hit play. It is a preview of what the user will see if you build the current scene.
 
-On the right hand side, we have the **Project** directory (folder) panel on the bottom. This is where all your assets are (ie art, music, scripts). The **Hierarchy** is like a layers panel in Photoshop. It is an arrangement of all elements in the scene. For every element of the scene can be hidden from the view by hitting eye button when hovering on the element. The lock button is the pointer icon. The **Inspector** contains all modifiable aspect of an element along with info. This is where you drag scripts in the element.
+On the right hand side, we have the **Project** directory (folder) panel on the bottom. This is where all your assets are (ie art, music, scripts). The **Hierarchy** is like a layers panel in Photoshop. It is an arrangement of all elements in the scene. For every element of the scene can be hidden from the view by hitting the eye button when hovering on the element. The lock button is the pointer icon. The **Inspector** contains all modifiable aspects of an element along with info. This is where you drag scripts in the element.
 
 Other panels include a console, which will output when the game is run. The **Animator** and **Animation** go hand in hand and creates animation for sprites. 
 
@@ -112,7 +112,7 @@ When you start off, you will be brought up to a scene consisting of a directiona
 
 #### Resources
 
-Before we get to 3D bodies in Unity, it is necessary to get 3D models. Unity is not build to be a 3D modeling software, so 3D objects should be created in 3D programs or imported from 3D libraries. Therefore, I will recommend some free software and libraries
+Before we get to 3D bodies in Unity, it is necessary to get 3D models. Unity is not built to be a 3D modeling software, so 3D objects should be created in 3D programs or imported from 3D libraries. Therefore, I will recommend some free software and libraries
 
 <a name="software"></a>
 
@@ -120,7 +120,7 @@ Before we get to 3D bodies in Unity, it is necessary to get 3D models. Unity is 
 
 **Free**
 
-* [Blender](https://www.blender.org/) - a very powerful open source 3D modeling, texturing, animations, and general 3D software. All my models in the exercises where made in Blender. A good place to start is with [Andrew's Donut](https://www.youtube.com/watch?v=TPrnSACiTJ4&list=PLxLGgWrla12dEW5mjO09kR2_TzPqDTXdw). New 2.8 version is very similar to all other 3D software. I **very strongly** advice you use Blender because it is free and is often much better than paid software
+* [Blender](https://www.blender.org/) - a very powerful open source 3D modeling, texturing, animations, and general 3D software. All my models in the exercises were made in Blender. A good place to start is with [Andrew's Donut](https://www.youtube.com/watch?v=TPrnSACiTJ4&list=PLxLGgWrla12dEW5mjO09kR2_TzPqDTXdw). New 2.8 version is very similar to all other 3D software. I **very strongly** advise you use Blender because it is free and is often much better than paid software
 * [TreeIt](https://www.evolved-software.com/treeit/treeit) - a tree generator with presets that range from cacti to palm trees
 
 **Paid**
@@ -134,7 +134,7 @@ Before we get to 3D bodies in Unity, it is necessary to get 3D models. Unity is 
 
   \* Note this is a really powerful piece of software, but from my experience, it is not easy to learn and textures can be found online or created with other programs like Adobe Illustrator and converted into normal maps in Blender.
 
-\* Note don't use CAD software like Fusion 360, Revit, Solidworks etc, because those are for CAD (computer assisted design) and are aimed towards engineers. Also, Blender has Architectural Plugin with many of the functionality of Autodesk Revit. 
+\* Note don't use CAD software like Fusion 360, Revit, Solidworks etc, because those are for CAD (computer assisted design) and are aimed towards engineers. Also, Blender has an Architectural Plugin with many of the functionality of Autodesk Revit. 
 
 <a name="libraries"></a>
 
@@ -173,7 +173,7 @@ Of course, you can move it, rotate it, or scale it, but I will assume you know w
 2. Click **apply**
 3. Now Unity is generating colliders and this may take a while
 
-If you want a object to be solid and non-movable (this will use bake lighting, which I will go in more detail later), check **Static**. Remember, this will generate a bake map, which is CPU intensive and may take a lot of time depending on the size of the model. Unfortunately, if the object is really big, checking Static may actually slow things down, so keep that in mind
+If you want an object to be solid and non-movable (this will use bake lighting, which I will go into more detail later), check **Static**. Remember, this will generate a bake map, which is CPU intensive and may take a lot of time depending on the size of the model. Unfortunately, if the object is really big, checking Static may actually slow things down, so keep that in mind
 
 **Clean Snapping**
 
@@ -224,7 +224,7 @@ Now that no Standard Packages exist, the easiest way to make a player is to crea
    
    public class cameraControl : MonoBehaviour
    {
-       // sensitivety of mouse
+       // sensitivity of mouse
        public float mouseSpeed = 100f;
    
        // place camera here
@@ -356,8 +356,8 @@ Now that no Standard Packages exist, the easiest way to make a player is to crea
     
     \* Note you can change the speed of movement, gravity constant, jump check radius, under the script. Also, sliding down slopes is a given
     
-12. For the gravity to work properly, a ground check must be preformed to reset the velocity. To do this, create empty object in player and place at the feet of the player
-13. Add new layer of ground to preform jumps and gravity checks on and apply it to the models
+12. For the gravity to work properly, a ground check must be performed to reset the velocity. To do this, create empty object in player and place at the feet of the player
+13. Add new layer of ground to perform jumps and gravity checks on and apply it to the models
 
 Resource: [Brackeys](https://www.youtube.com/watch?v=_QajrabyTJc)
 
@@ -402,9 +402,9 @@ From there, we can change some properties of the lights:
   * soft shadows - blurred shadow
   * hard shadows - very rough edged shadows
 
-Some other light options include an ambient light that lunates everything. This can be changed this in the Window -> Rendering -> Lighting Settings. From there, there are many options can you can play with. Also in the options is to add atmospheric fog.
+Some other light options include an ambient light that lunates everything. This can be changed in the Window -> Rendering -> Lighting Settings. From there, there are many options can play with. Also in the options is to add atmospheric fog.
 
-Another important things about lighting is bake lighting. Baking is a way to save space by "baking" or pre-mapping the lighting in the texture map so lighting does not need to be calculated again in real time. This may be something you would want to look into if you have problems with framerate, or just want to speed/smooth out the game. 
+Another important thing about lighting is bake lighting. Baking is a way to save space by "baking" or pre-mapping the lighting in the texture map so lighting does not need to be calculated again in real time. This may be something you would want to look into if you have problems with framerate, or just want to speed/smooth out the game. 
 
 
 
@@ -466,7 +466,7 @@ Another way to the the animation is to do it in the 3D program of choice (for me
 4. Create an animations controller and rename it. Also double click it
 5. It will open up the Animator window so right click and click Create State -> Empty
 6. Open the new empty state and rename it. Afterwards, change the motion to the imported motion (ie, it would be Torus|TorusAcion for my animation (seen above))
-7. Add an **Animator **to the animated object in scene and add the controller. If you enable the animator the animation plays. With this in mind, I will use an event to enable the animation [later](#3events)
+7. Add an **Animator **to the animated object in the scene and add the controller. If you enable the animator the animation plays. With this in mind, I will use an event to enable the animation [later](#3events)
 
    
 
@@ -654,7 +654,7 @@ Ambient sounds can be a great way to add that something extra to the game. This 
    	}
    }
    ```
-3. Grab the footsteps and place it in the footsteps audioclips after putting the number of audio clips to randomly chose from
+3. Grab the footsteps and place it in the footsteps audioclips after putting the number of audio clips to randomly choose from
 4. Add the audio listener and change volume
 
 
@@ -846,7 +846,7 @@ When using this, after running the game, it will output to Unity's debug console
 
 ### 19. Build
 
-So you are finished your game. You need to disturbed the game. This is done through building the game. 
+So you are finished with your game, now you need to disturbed the game. This is done through building the game. 
 
 1. Go to **File**, **Build Settings...**
 2. Select the scenes that you want to build
@@ -888,9 +888,9 @@ To download the finished project:
 
 <a name="unity"></a>
 
-#### Unity's Collab
+  #### Unity's Collab
 
-Collaborating will friends can be tough will Unity, especially with git/GitHub, but it you are careful, things could turn out fine.
+Collaborating with friends can be tough with Unity, especially with git/GitHub, but if you are careful, things could turn out fine.
 
 If you need to collaborate, the best way is to use Unity's Collab feature
 
@@ -906,7 +906,7 @@ However, note that this only supports 4 people (which is usually enough because 
 
 Otherwise if you decide to GitHub, here are some general practices:
 
-1. Everyone should work on there own branches and work on there own scenes working towards **Prefabs** (ie one person on movement, one on moving platforms, etc.)
+1. Everyone should work on their own branches and work on their own scenes working towards **Prefabs** (ie one person on movement, one on moving platforms, etc.)
 2. Optionally, have one person on the master (final) level to peace it together
 3. Use [this](https://github.com/github/gitignore/blob/master/Unity.gitignore) gitignore or clone from my projects on GitHub
 4. Have the core gameplay done first (especially at a Game Jam)
